@@ -1,6 +1,6 @@
 {
     "name": "web3p/ethereum-util",
-    "description": "A collection of utility functions for Ethereum written in PHP.",
+    "description": "A collection of utility functions for Ethereum written in PHP. Maintained fork: phpseclib 4, current dependencies.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "~7 | ~8.0"
+        "phpunit/phpunit": "^10.5|^11.5|^12.0|^13.0"
     },
     "autoload": {
         "psr-4": {
@@ -23,9 +23,9 @@
         }
     },
     "require": {
-        "PHP": "^7.1 | ^8.0",
-        "kornrunner/keccak": "~1",
-        "simplito/elliptic-php": "~1.0.6",
-        "phpseclib/phpseclib": "~2.0"
+        "php": "^8.1",
+        "kornrunner/keccak": "^1.1",
+        "simplito/elliptic-php": "^1.0.12",
+        "phpseclib/phpseclib": "^4.0.2"
     }
 }

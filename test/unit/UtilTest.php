@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use Test\TestCase;
 use Web3p\EthereumUtil\Util;
-use phpseclib\Math\BigInteger as BigNumber;
+use phpseclib4\Math\BigInteger as BigNumber;
 use InvalidArgumentException;
 use stdClass;
 

@@ -14,7 +14,7 @@ namespace Web3p\EthereumUtil;
 use InvalidArgumentException;
 use RuntimeException;
 use kornrunner\Keccak;
-use phpseclib\Math\BigInteger as BigNumber;
+use phpseclib4\Math\BigInteger as BigNumber;
 use Elliptic\EC;
 use Elliptic\EC\KeyPair;
 use Elliptic\EC\Signature;
@@ -272,7 +272,7 @@ class Util
      * 
      * @param BigNumber|string|int $number
      * @throws InvalidArgumentException
-     * @return array|\phpseclib\Math\BigInteger
+     * @return array|\phpseclib4\Math\BigInteger
      */
     public function toBn($number)
     {
